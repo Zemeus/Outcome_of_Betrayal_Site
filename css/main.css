@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(150, 150, 150);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3e0816;
+}
+
 /* BACKGROUND */
 
 * {
