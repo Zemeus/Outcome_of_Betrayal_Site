@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-image: url("../img/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    background-color: black;
+    background-attachment: fixed;
+    width: 100%;
+    color: white;
+}
+
+.contact {
+    padding-top: 20vh;
+    min-height: 80vh;
+}
+
+#input-submit {
+    background: #E74C3C;
+    cursor: pointer;
+    color: white;
+}
+
+#input-submit:hover {
+    box-shadow: 0 1px 1px 1px rgba(#aaa, 0.6);
+}
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+
+}
+
+input,
+textarea {
+    border: 0;
+    outline: 0;
+    padding: .2em;
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    color: black;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 0 0px 2px #E74C3C !important;
+}
+
+.background-transparent-black {
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+@media (max-width: 767px) {
+
+    body {
+        margin: 0;
+        padding: 5px;
+        background-image: url("../img/about-background-sm.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: top center;
+        background-color: black;
+        background-attachment: fixed;
+
+    }
+
+    form {
+        max-width: 80vw;
+        text-align: center;
+        margin: auto;
+
+    }
+
+}

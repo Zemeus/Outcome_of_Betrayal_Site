@@ -1,0 +1,30 @@
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("../img/band-cover.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center -22vh;
+            background-color: black;
+            background-attachment: fixed;
+            width: 100%;
+        }
+
+        .background-transparent-black {
+            background-color: rgba(0, 0, 0, 0.7)
+        }
+
+        @media (max-width: 1500px) {
+
+            body {
+                margin: 0;
+                background-image: url("../img/about-background-sm.png");
+                background-repeat: no-repeat;
+                background-size: auto;
+                background-position: top center;
+                background-color: black;
+                background-attachment: fixed;
+
+            }
+
+        }
